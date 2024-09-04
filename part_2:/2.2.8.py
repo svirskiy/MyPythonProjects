@@ -1,0 +1,6 @@
+test1 = input()
+test2 = input()
+test3 = input()
+print(test3)
+print(test2)
+print(test1)
