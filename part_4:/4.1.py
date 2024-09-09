@@ -1,4 +1,4 @@
 if input() == input():
-    print("Password accepted")
+    print("Password is accepted")
 else:
-    print("Password not accepted")
+    print("Password is not accepted")
