@@ -16,5 +16,3 @@ if number_4 < min_num:
 else:
     min_num = min_num
 print(min_num)
-
-
