@@ -2,7 +2,10 @@ x1 = int(input())
 y1 = int(input())
 x2 = int(input())
 y2 = int(input())
-if (x1 - x2 == 2 and (y1 - y2 == 1 or y2 - y1 == 1)) or (x1 - x2 == -2 and (y1 - y2 == 1 or y2 - y1 == 1)) or (y1 - y2 == 2 and (x1 - x2 == 1 or x2 - x1 == 1)) or (y1 - y2 == -2 and (x1 - x2 == 1 or x2 - x1 == 1)):
+dx = abs(x1 - x2)
+dy = abs(y1 - y2)
+if (dx == 2 and dy == 1) or (dx == 1 and dy == 2):
     print("YES")
 else:
     print("NO")
+
