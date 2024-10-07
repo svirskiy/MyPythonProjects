@@ -1,7 +1,2 @@
-a1 = float(input())
-a2 = float(input())
-a3 = float(input())
-a4 = float(input())
-a5 = float(input())
-sum = abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5)
+sum = abs(float(input())) + abs(float(input())) + abs(float(input())) + abs(float(input())) + abs(float(input()))
 print(sum)
