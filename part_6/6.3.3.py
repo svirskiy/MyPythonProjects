@@ -3,9 +3,9 @@
 #среднее гармоническое чисел
 #среднее квадратичное чисел
 
+import math
 a = float(input())
 b = float(input())
-import math
 print((a + b) / 2)
 print(math.sqrt(a * b))
 print((2 * a * b) / (a + b))

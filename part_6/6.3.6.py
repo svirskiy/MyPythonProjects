@@ -1,7 +1,7 @@
+import math
 a = float(input())
 b = float(input())
 c = float(input())
-import math
 sqrt_part = b**2 - 4*a*c
 if sqrt_part > 0:
     sqrt_part = math.sqrt(sqrt_part)

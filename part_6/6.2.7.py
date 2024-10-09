@@ -1,9 +1,7 @@
 #Напишите программу, которая считывает одну строку, после чего выводит «YES» (без кавычек), если во введённой строке есть подстрока «суббота» или «воскресенье», или «NO» (без кавычек) в противном случае.
 
 string = input()
-if "saturday" in string:
-    print("YES")
-elif "sunday" in string:
+if "saturday" in string or "sunday" in string:
     print("YES")
 else:
     print("NO")
