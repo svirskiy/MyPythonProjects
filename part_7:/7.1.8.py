@@ -1,4 +1,4 @@
-m, p, n = int(input()), int(input()), int(input())
-for i in range(n):
-    print(i + 1, m)
-    m = m * (1 + p/100)
+start, speed, days = int(input()), int(input()), int(input())
+for i in range(days):
+    print(i + 1, start)
+    start = start * (1 + speed/100)
