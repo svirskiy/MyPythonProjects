@@ -15,6 +15,7 @@
 n = int(input())
 total = 0
 for i in range(1, n + 1):
-    if i ** 2 % 10 == 2 or i ** 2 % 10 == 5 or i ** 2 % 10 == 8:
+    last_digit = i ** 2 % 10
+    if last_digit == 2 or last_digit == 5 or last_digit == 8:
         total += i
 print(total)

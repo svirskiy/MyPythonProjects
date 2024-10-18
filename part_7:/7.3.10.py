@@ -4,12 +4,10 @@
 #
 
 
-flag = True
 for _ in range(10):
     num = int(input())
     if num % 2 != 0:
-        flag = False
-if flag:
-    print("YES")
+        print("NO")
+        break
 else:
-    print("NO")
+    print("YES")
