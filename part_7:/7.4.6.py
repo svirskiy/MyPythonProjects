@@ -7,9 +7,9 @@
 # 5. Напишите программу, которая выводит количество пятерок.
 
 rate = int(input())
-sum = 0
+count = 0
 while 0 < rate < 6:
     if rate == 5:
-        sum += 1
+        count += 1
     rate = int(input())
-print(sum)
+print(count)
