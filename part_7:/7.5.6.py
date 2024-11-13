@@ -14,7 +14,7 @@ while number > 0:
     current_digit = number % 10
     if current_digit != last_digit:
         is_same = False
-
+        break
     number //= 10
 if is_same:
     print("YES")
